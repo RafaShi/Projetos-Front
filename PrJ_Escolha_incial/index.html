@@ -3,30 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-
     <title>EeveeLutions</title>
 </head>
 
 <body>
     <header>
         <div class="logo">
-
             <div class="eevee">
-                <img src="./img/evee.png">
-
+                <img src="./img/evee.png" alt="eevee logo">
             </div>
-
             EeveeLutions
         </div>
-
         <nav>
             <ul>
                 <li>Home</li>
@@ -37,7 +31,6 @@
     </header>
 
     <main>
-
         <div class="container">
 
             <div class="tech-circles">
@@ -49,48 +42,34 @@
 
             <div class="list">
                 <div class="item active">
-
-                    <div class="item active">
-
-                        <div class="pokemon-img">
-                            <img src="./img/Vaporeon.png" alt="vaporeon">
-                        </div>
-
-                        <div class="content">
-                            <p class="tipo">
-                                Tipo: Água
-                                <img src="./img/agua.png" alt="agua" class="energy-icon">
-                            </p>
-
-                            <p class="poke-name">Vaporeon</p>
-
-                            <p class="description">Vive próximo a corpos d’água. Sua cauda lembra a de uma sereia,
-                                confundindo pescadores e viajantes. Pode se dissolver na água para se camuflar.</p>
-
-                            <p class="btn">Saiba mais</p>
-
-                        </div>
-
+                    <div class="pokemon-img">
+                        <img src="./img/Vaporeon.png" alt="vaporeon">
+                    </div>
+                    <div class="content">
+                        <p class="tipo">
+                            Tipo: Água
+                            <img src="./img/agua.png" alt="agua" class="energy-icon">
+                        </p>
+                        <p class="poke-name">Vaporeon</p>
+                        <p class="description">Vive próximo a corpos d’água. Sua cauda lembra a de uma sereia,
+                            confundindo pescadores e viajantes. Pode se dissolver na água para se camuflar.</p>
+                        <p class="btn">Saiba mais</p>
                     </div>
                 </div>
+
                 <div class="item">
                     <div class="pokemon-img">
                         <img src="./img/Jolteon.png" alt="jolteon">
                     </div>
-
                     <div class="content">
                         <p class="tipo">
                             Tipo: Elétrico
                             <img src="./img/eletrico.png" alt="eletrico" class="energy-icon">
                         </p>
-
                         <p class="poke-name">Jolteon</p>
-
                         <p class="description">Armazena eletricidade em seus pelos eriçados. Quando agitado, libera
                             descargas capazes de paralisar oponentes instantaneamente.</p>
-
                         <p class="btn">Saiba mais</p>
-
                     </div>
                 </div>
 
@@ -98,47 +77,39 @@
                     <div class="pokemon-img">
                         <img src="./img/flareon.png" alt="flareon">
                     </div>
-
                     <div class="content">
                         <p class="tipo">
                             Tipo: Fogo
                             <img src="./img/fogo.png" alt="fogo" class="energy-icon">
                         </p>
-
                         <p class="poke-name">Flareon</p>
-
                         <p class="description">Sua temperatura corporal pode atingir 900°C. Armazena calor em seu
                             pelo espesso, liberando chamas intensas quando em batalha.</p>
-
                         <p class="btn">Saiba mais</p>
-
                     </div>
                 </div>
             </div>
 
             <div class="arrows">
                 <button class="arrow-btn" id="prev">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
-                        class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-left"
+                        viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
                     </svg>
                 </button>
 
                 <button class="arrow-btn" id="next">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
-                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-right"
+                        viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
                     </svg>
                 </button>
-
             </div>
-            <div class="indicators">
-                <div class="numbers">
-                    01
-                </div>
 
+            <div class="indicators">
+                <div class="numbers">01</div>
                 <div class="dots">
                     <div class="dot active"></div>
                     <div class="dot"></div>
@@ -146,9 +117,10 @@
                 </div>
             </div>
 
-
-
+        </div>
     </main>
+
+    <script src="./scripts.js"></script>
 </body>
 
 </html>

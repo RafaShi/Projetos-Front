@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="music.css">
+    <title>Huntrix Music</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="./img/huntrix.png" alt="logo">
+                </div>
+                
+                <div class="nav-icons"> 
+                    <section class="casa">
+                        <img width="20" height="20"
+                            src="https://img.icons8.com/fluency-systems-regular/20/ffffff/home--v1.png" alt="home--v1" />
+                    </section>
+                </div>
+            </div>
+
+            <div class="nav-center">
+                <div class="search-bar">
+                    <img width="20" height="20" src="https://img.icons8.com/ios-filled/20/000000/search--v1.png"
+                        alt="search--v1" class="search-icon" /> 
+                    <input type="text" placeholder="O que você quer ouvir?">
+                </div>
+            </div>
+            
+            <div class="nav-right">
+                <section class="perfil">
+                    <img src="https://github.com/RafaShi.png" alt="perfil">
+                </section>
+            </div>
+        </nav>
+    </header>
+
+    <main class="image">
+        <img src="./img/golden.png" alt="Golden">
+    </main>
+
+    <footer class="player">
+        <div class="song-info">
+            <img src="./img/golden.png" alt="Capa da música">
+            <div class="text">
+                <h4>Golden</h4>
+                <p>Huntrix</p>
+            </div>
+        </div>
+        
+        <audio controls id="audio-player">
+            <source src="./musica/golden.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        
+        <div class="spacer"></div> 
+    </footer>
+    
+    <script src="music.js"></script>
+</body>
+
+</html>

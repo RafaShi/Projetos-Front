@@ -6,15 +6,6 @@ Bem-vindo ao meu repositório de projetos de estudo em **Desenvolvimento Front-E
 
 Sou Rafaela, apaixonada por tecnologia e design. Este espaço é dedicado aos meus experimentos, aprendizados e evolução como desenvolvedora front-end.
 
-## 📁 Projetos incluídos
-
-- **Prj_EveeLutions**  
-  Site inspirado nas evoluções do Pokémon Eevee, com foco em layout responsivo e animações CSS.
-
-- **Prj_SiteCafeteria**  
-  Protótipo de site para uma cafeteria fictícia, com design moderno e navegação intuitiva.
-
-
 ## 🛠️ Tecnologias utilizadas
 
 - HTML5
